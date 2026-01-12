@@ -1,201 +1,201 @@
 .shakes {
-    padding-top: 130px;
-    padding-bottom: 120px;
-    @media (max-width: 1200px) {
-        & {
-            padding-top: 120px;
-            padding-bottom: 110px;
-        }
+  padding-top: 130px;
+  padding-bottom: 120px;
+  @media (max-width: 1200px) {
+    & {
+      padding-top: 120px;
+      padding-bottom: 110px;
     }
-    @media (max-width: 768px) {
-        & {
-            padding-bottom: 100px;
-        }
+  }
+  @media (max-width: 768px) {
+    & {
+      padding-bottom: 100px;
     }
-    .shakes-content {
+  }
+  .shakes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__podtitle {
+      color: rgb(255, 165, 186);
+      font-family: 'Titan One';
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 34px;
+      text-transform: uppercase;
+      @media (max-width: 1200px) {
+        & {
+          color: rgb(255, 165, 186);
+          font-family: 'Titan One';
+          font-size: 26px;
+          font-weight: 400;
+          line-height: 30px;
+          text-transform: uppercase;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          color: rgb(255, 165, 186);
+          font-family: 'Titan One';
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21px;
+          text-transform: uppercase;
+        }
+      }
+    }
+    &__title {
+      color: rgb(212, 20, 67);
+      font-family: 'Titan One';
+      font-size: 58px;
+      font-weight: 400;
+      line-height: 66px;
+      text-transform: uppercase;
+      margin-top: 15px;
+      @media (max-width: 1200px) {
+        & {
+          color: rgb(212, 20, 67);
+          font-family: 'Titan One';
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 55px;
+          text-transform: uppercase;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          color: rgb(212, 20, 67);
+          font-family: 'Titan One';
+          font-size: 34px;
+          font-weight: 400;
+          line-height: 39px;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      padding-top: 260px;
+      @media (max-width: 1200px) {
+        & {
+          padding-top: 200px;
+          gap: 20px;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          flex-wrap: wrap;
+          gap: 170px;
+        }
+      }
+      .card {
         display: flex;
         flex-direction: column;
         align-items: center;
-        &__podtitle {
-            color: rgb(255, 165, 186);
+        border-radius: 24px;
+        background-color: rgb(255, 184, 202);
+        padding: 165px 45px 50px 45px;
+        border: none;
+        @media (max-width: 1200px) {
+          & {
+            padding: 80px 10px 40px 10px;
+          }
+        }
+        position: relative;
+        &:nth-child(2) {
+          background-color: rgb(240, 209, 165);
+        }
+        &:nth-child(3) {
+          background-color: rgb(194, 226, 151);
+        }
+        &__img {
+          position: absolute;
+          bottom: 390px;
+          @media (max-width: 1200px) {
+            & {
+              width: 220px;
+              height: 226px;
+              top: -150px;
+            }
+          }
+        }
+        .card-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 35px;
+          &__title {
+            color: rgb(255, 255, 255);
             font-family: 'Titan One';
             font-size: 30px;
             font-weight: 400;
             line-height: 34px;
             text-transform: uppercase;
+            text-align: center;
             @media (max-width: 1200px) {
-                & {
-                    color: rgb(255, 165, 186);
-                    font-family: 'Titan One';
-                    font-size: 26px;
-                    font-weight: 400;
-                    line-height: 30px;
-                    text-transform: uppercase;
-                }
+              & {
+                color: rgb(255, 255, 255);
+                font-family: 'Titan One';
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+                text-transform: uppercase;
+              }
             }
-            @media (max-width: 768px) {
-                & {
-                    color: rgb(255, 165, 186);
-                    font-family: 'Titan One';
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 21px;
-                    text-transform: uppercase;
-                }
-            }
-        }
-        &__title {
-            color: rgb(212, 20, 67);
+          }
+          &__upd {
+            color: rgb(255, 255, 255);
             font-family: 'Titan One';
-            font-size: 58px;
+            font-size: 30px;
             font-weight: 400;
-            line-height: 66px;
+            line-height: 34px;
+            text-align: center;
             text-transform: uppercase;
-            margin-top: 15px;
             @media (max-width: 1200px) {
-                & {
-                    color: rgb(212, 20, 67);
-                    font-family: 'Titan One';
-                    font-size: 48px;
-                    font-weight: 400;
-                    line-height: 55px;
-                    text-transform: uppercase;
-                }
+              & {
+                color: rgb(255, 255, 255);
+                font-family: 'Titan One';
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+                text-transform: uppercase;
+              }
             }
-            @media (max-width: 768px) {
-                & {
-                    color: rgb(212, 20, 67);
-                    font-family: 'Titan One';
-                    font-size: 34px;
-                    font-weight: 400;
-                    line-height: 39px;
-                    text-transform: uppercase;
-                }
-            }
-        }
-        .cards {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 25px;
-            padding-top: 260px;
+          }
+          &__item {
+            color: rgb(255, 255, 255);
+            font-family: 'DM Sans';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 176%;
+            text-align: center;
+            width: 240px;
             @media (max-width: 1200px) {
-                & {
-                    padding-top: 200px;
-                    gap: 20px;
-                }
+              & {
+                color: rgb(255, 255, 255);
+                font-family: 'DM Sans';
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 176%;
+                width: 200px;
+              }
             }
-            @media (max-width: 768px) {
-                & {
-                    flex-wrap: wrap;
-                    gap: 170px;
-                }
+          }
+          .svg-background {
+            margin-top: 25px;
+            @media (max-width: 1200px) {
+              & {
+                margin-top: 40px;
+                height: 40px;
+                width: 40px;
+              }
             }
-            .card {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                border-radius: 24px;
-                background-color: rgb(255, 184, 202);
-                padding: 165px 45px 50px 45px;
-                border: none;
-                @media (max-width: 1200px) {
-                    & {
-                        padding: 80px 10px 40px 10px;
-                    }
-                }
-                position: relative;
-                &:nth-child(2) {
-                    background-color: rgb(240, 209, 165);
-                }
-                &:nth-child(3) {
-                    background-color: rgb(194, 226, 151);
-                }
-                &__img {
-                    position: absolute;
-                    bottom: 390px;
-                    @media (max-width: 1200px) {
-                        & {
-                            width: 220px;
-                            height: 226px;
-                            top: -150px;
-                        }
-                    }
-                }
-                .card-content {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    gap: 35px;
-                    &__title {
-                        color: rgb(255, 255, 255);
-                        font-family: 'Titan One';
-                        font-size: 30px;
-                        font-weight: 400;
-                        line-height: 34px;
-                        text-transform: uppercase;
-                        text-align: center;
-                        @media (max-width: 1200px) {
-                            & {
-                                color: rgb(255, 255, 255);
-                                font-family: 'Titan One';
-                                font-size: 20px;
-                                font-weight: 400;
-                                line-height: 23px;
-                                text-transform: uppercase;
-                            }
-                        }
-                    }
-                    &__upd {
-                        color: rgb(255, 255, 255);
-                        font-family: 'Titan One';
-                        font-size: 30px;
-                        font-weight: 400;
-                        line-height: 34px;
-                        text-align: center;
-                        text-transform: uppercase;
-                        @media (max-width: 1200px) {
-                            & {
-                                color: rgb(255, 255, 255);
-                                font-family: 'Titan One';
-                                font-size: 20px;
-                                font-weight: 400;
-                                line-height: 23px;
-                                text-transform: uppercase;
-                            }
-                        }
-                    }
-                    &__item {
-                        color: rgb(255, 255, 255);
-                        font-family: 'DM Sans';
-                        font-size: 16px;
-                        font-weight: 700;
-                        line-height: 176%;
-                        text-align: center;
-                        width: 240px;
-                        @media (max-width: 1200px) {
-                            & {
-                                color: rgb(255, 255, 255);
-                                font-family: 'DM Sans';
-                                font-size: 14px;
-                                font-weight: 700;
-                                line-height: 176%;
-                                width: 200px;
-                            }
-                        }
-                    }
-                    .svg-background {
-                        margin-top: 25px;
-                        @media (max-width: 1200px) {
-                            & {
-                                margin-top: 40px;
-                                height: 40px;
-                                width: 40px;
-                            }
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
 }

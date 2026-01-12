@@ -1,17 +1,17 @@
 .locations-rev {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom, white 65%, rgb(255, 245, 246) 20%);
-    @media (max-width: 1200px) {
-        & {
-          background: linear-gradient(to bottom, white 61%, rgb(255, 245, 246) 20%);
-        }
-      }
-      @media (max-width: 768px) {
-        & {
-            background: linear-gradient(to bottom, white 38%, rgb(255, 245, 246) 20%);
-        }
-      }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, white 65%, rgb(255, 245, 246) 20%);
+  @media (max-width: 1200px) {
+    & {
+      background: linear-gradient(to bottom, white 61%, rgb(255, 245, 246) 20%);
+    }
+  }
+  @media (max-width: 768px) {
+    & {
+      background: linear-gradient(to bottom, white 38%, rgb(255, 245, 246) 20%);
+    }
+  }
 }

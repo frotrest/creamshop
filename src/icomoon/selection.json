@@ -3,9 +3,7 @@
   "icons": [
     {
       "icon": {
-        "paths": [
-          "M102.32 102.32l409.281 409.281-409.281 409.281"
-        ],
+        "paths": ["M102.32 102.32l409.281 409.281-409.281 409.281"],
         "attrs": [
           {
             "fill": "none",
@@ -20,9 +18,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "arrow"
-        ]
+        "tags": ["arrow"]
       },
       "attrs": [
         {
@@ -71,9 +67,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "close"
-        ],
+        "tags": ["close"],
         "colorPermutations": {
           "212206712552552551": [
             {
@@ -135,9 +129,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "burger"
-        ],
+        "tags": ["burger"],
         "colorPermutations": {
           "212206712552552551": [
             {
@@ -186,9 +178,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "facebook"
-        ],
+        "tags": ["facebook"],
         "colorPermutations": {
           "212206712552552551": [
             {
@@ -225,9 +215,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "telegram"
-        ],
+        "tags": ["telegram"],
         "colorPermutations": {
           "212206712552552551": [
             {
@@ -264,9 +252,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "github"
-        ],
+        "tags": ["github"],
         "colorPermutations": {
           "212206712552552551": [
             {
@@ -295,11 +281,7 @@
         "paths": [
           "M621.254 877.254l320-320c24.994-24.992 24.994-65.516 0-90.51l-320-320c-24.994-24.992-65.516-24.992-90.51 0-24.994 24.994-24.994 65.516 0 90.51l210.746 210.746h-613.49c-35.346 0-64 28.654-64 64s28.654 64 64 64h613.49l-210.746 210.746c-12.496 12.496-18.744 28.876-18.744 45.254s6.248 32.758 18.744 45.254c24.994 24.994 65.516 24.994 90.51 0z"
         ],
-        "tags": [
-          "arrow-right",
-          "right",
-          "next"
-        ],
+        "tags": ["arrow-right", "right", "next"],
         "defaultCode": 59964,
         "grid": 16,
         "attrs": []

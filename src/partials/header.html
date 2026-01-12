@@ -1,40 +1,59 @@
 <div class="container header-content">
-    <div class="logo">
-        <picture class="logo__img">
-            <source srcset="/img/logo.png 1x, /img/logo@2x.png 2x" />
-            <img src="/img/logo.png" alt="logo" />
-        </picture>
-    </div>
-    <nav class="nav-bar">
-        <a href="#header" class="nav-bar__item">Home</a>
-        <a href="#shakes" class="nav-bar__item">About us</a>
-        <a href="#made" class="nav-bar__item">How it’s made?</a>
-        <a href="#locations-rev" class="nav-bar__item">Our products</a>
-        <a href="#footer" class="nav-bar__item">Contact</a>
+  <div class="logo">
+    <img src="/img/logo.png" alt="logo" />
+  </div>
+  <nav class="nav-bar">
+    <a href="#header" class="nav-bar__item">Home</a>
+    <a href="#shakes" class="nav-bar__item">About us</a>
+    <a href="#made" class="nav-bar__item">How it’s made?</a>
+    <a href="#locations-rev" class="nav-bar__item">Our products</a>
+    <a href="#footer" class="nav-bar__item">Contact</a>
+  </nav>
+  <div class="svg-button">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <button class="burger-button">
+              Buy now
+              <svg class="icon icon-arrow">
+                <use xlink:href="/icomoon/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <nav class="burger-nav">
+              <a href="#header" class="burger-nav__item">Home</a>
+              <a href="#shakes" class="burger-nav__item">About us</a>
+              <a href="#made" class="burger-nav__item">How it’s made?</a>
+              <a href="#locations-rev" class="burger-nav__item">Our products</a>
+              <a href="#footer" class="burger-nav__item">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </nav>
-    <div class="svg-button">
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <button class="burger-button">Buy now <svg class="icon icon-arrow"><use xlink:href="/icomoon/symbol-defs.svg#icon-arrow"></use></svg></button>
-                  <nav class="burger-nav">
-                    <a href="#header" class="burger-nav__item">Home</a>
-                    <a href="#shakes" class="burger-nav__item">About us</a>
-                    <a href="#made" class="burger-nav__item">How it’s made?</a>
-                    <a href="#locations-rev" class="burger-nav__item">Our products</a>
-                    <a href="#footer" class="burger-nav__item">Contact</a>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
-    <button class="svg-button__button">Buy now <svg class="icon icon-arrow"><use xlink:href="/icomoon/symbol-defs.svg#icon-arrow"></use></svg></button>
-    </div>
+    <button class="svg-button__button">
+      Buy now
+      <svg class="icon icon-arrow">
+        <use xlink:href="/icomoon/symbol-defs.svg#icon-arrow"></use>
+      </svg>
+    </button>
+  </div>
 </div>
