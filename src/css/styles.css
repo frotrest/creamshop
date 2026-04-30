@@ -19,6 +19,8 @@ header .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 header .header-content .nav-bar {
   display: flex;
@@ -33,7 +35,7 @@ header .header-content .nav-bar {
 }
 header .header-content .nav-bar__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -61,7 +63,7 @@ header .header-content .svg-button__button {
   align-items: center;
   gap: 10px;
   color: rgb(212, 20, 67);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -73,7 +75,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   header .header-content .svg-button__button {
     color: rgb(212, 20, 67);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -117,7 +119,7 @@ header .header-content .svg-button__button {
   justify-content: center;
   margin-top: 100px;
   color: rgb(144, 126, 130);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 700;
   line-height: 186%;
@@ -131,7 +133,7 @@ header .header-content .svg-button__button {
     padding-top: 30px;
     width: 768px;
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
   }
@@ -168,7 +170,7 @@ header .header-content .svg-button__button {
 }
 .footer .footer-content .footer-main .footer-title__podtitle {
   color: rgb(255, 165, 186);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
@@ -177,7 +179,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .footer .footer-content .footer-main .footer-title__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 26px;
     font-weight: 400;
     width: 340px;
@@ -186,7 +188,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .footer .footer-content .footer-main .footer-title__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -195,7 +197,7 @@ header .header-content .svg-button__button {
 }
 .footer .footer-content .footer-main .footer-title__title {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
@@ -204,7 +206,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .footer .footer-content .footer-main .footer-title__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 48px;
     font-weight: 400;
     line-height: 55px;
@@ -214,7 +216,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .footer .footer-content .footer-main .footer-title__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 34px;
     font-weight: 400;
     line-height: 39px;
@@ -234,14 +236,14 @@ header .header-content .svg-button__button {
 }
 .footer .footer-content .footer-main .footer-help__title {
   color: black;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 186%;
 }
 @media (max-width: 1200px) {
   .footer .footer-content .footer-main .footer-help__title {
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
     line-height: 186%;
@@ -249,7 +251,7 @@ header .header-content .svg-button__button {
 }
 @media (max-width: 768px) {
   .footer .footer-content .footer-main .footer-help__title {
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 700;
   }
@@ -310,7 +312,7 @@ header .header-content .svg-button__button {
 }
 .hero .hero-content .description__title {
   color: white;
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-weight: 400;
   font-size: 38px;
   text-transform: uppercase;
@@ -331,7 +333,7 @@ header .header-content .svg-button__button {
 }
 .hero .hero-content .description__title--span {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-weight: 400;
   font-size: 58px;
   text-transform: uppercase;
@@ -354,7 +356,7 @@ header .header-content .svg-button__button {
 }
 .hero .hero-content .description .buttons__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -362,14 +364,12 @@ header .header-content .svg-button__button {
   border: none;
   border-radius: 20px;
   background-color: rgb(212, 20, 67);
-  transition:
-    color 0.3s ease,
-    background-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 @media (max-width: 1200px) {
   .hero .hero-content .description .buttons__item {
     color: rgb(255, 255, 255);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 8px;
     font-weight: 400;
     line-height: 10px;
@@ -461,7 +461,7 @@ header .header-content .svg-button__button {
 }
 .hero .hero-content .numbers .number__title {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 46px;
   font-weight: 400;
   line-height: 53px;
@@ -471,7 +471,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .hero .hero-content .numbers .number__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
@@ -481,7 +481,7 @@ header .header-content .svg-button__button {
 }
 .hero .hero-content .numbers .number__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -489,7 +489,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .hero .hero-content .numbers .number__item {
     color: rgb(255, 255, 255);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 8px;
     font-weight: 400;
     line-height: 10px;
@@ -576,7 +576,7 @@ header .header-content .svg-button__button {
 }
 .description .description-content .about-milk .about-milk-text__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -585,7 +585,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .description .description-content .about-milk .about-milk-text__item {
     color: rgb(255, 255, 255);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 8px;
     font-weight: 400;
     line-height: 150%;
@@ -629,7 +629,7 @@ header .header-content .svg-button__button {
 }
 .shakes .shakes-content__podtitle {
   color: rgb(255, 165, 186);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
@@ -638,7 +638,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .shakes .shakes-content__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 26px;
     font-weight: 400;
     line-height: 30px;
@@ -648,7 +648,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .shakes .shakes-content__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -657,7 +657,7 @@ header .header-content .svg-button__button {
 }
 .shakes .shakes-content__title {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
@@ -667,7 +667,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .shakes .shakes-content__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 48px;
     font-weight: 400;
     line-height: 55px;
@@ -677,7 +677,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .shakes .shakes-content__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 34px;
     font-weight: 400;
     line-height: 39px;
@@ -711,12 +711,14 @@ header .header-content .svg-button__button {
   background-color: rgb(255, 184, 202);
   padding: 165px 45px 50px 45px;
   border: none;
-  position: relative;
 }
 @media (max-width: 1200px) {
   .shakes .shakes-content .cards .card {
     padding: 80px 10px 40px 10px;
   }
+}
+.shakes .shakes-content .cards .card {
+  position: relative;
 }
 .shakes .shakes-content .cards .card:nth-child(2) {
   background-color: rgb(240, 209, 165);
@@ -743,7 +745,7 @@ header .header-content .svg-button__button {
 }
 .shakes .shakes-content .cards .card .card-content__title {
   color: rgb(255, 255, 255);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
@@ -753,7 +755,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .shakes .shakes-content .cards .card .card-content__title {
     color: rgb(255, 255, 255);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -762,7 +764,7 @@ header .header-content .svg-button__button {
 }
 .shakes .shakes-content .cards .card .card-content__upd {
   color: rgb(255, 255, 255);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
@@ -772,7 +774,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .shakes .shakes-content .cards .card .card-content__upd {
     color: rgb(255, 255, 255);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -781,7 +783,7 @@ header .header-content .svg-button__button {
 }
 .shakes .shakes-content .cards .card .card-content__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 176%;
@@ -791,7 +793,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .shakes .shakes-content .cards .card .card-content__item {
     color: rgb(255, 255, 255);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
     line-height: 176%;
@@ -810,39 +812,27 @@ header .header-content .svg-button__button {
 }
 
 .made {
-  background:
-    url('../img/milkground.png') no-repeat center/contain,
-    rgb(255, 245, 246);
+  background: url("../img/milkground.webp") no-repeat center/contain, rgb(255, 245, 246);
   padding-top: 125px;
   padding-bottom: 310px;
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .made {
-    background:
-      url('../img/milkground@2x.png') no-repeat center/contain,
-      rgb(255, 245, 246);
+    background: url("../img/milkground@2x.webp") no-repeat center/contain, rgb(255, 245, 246);
   }
 }
-@media (min-device-pixel-ratio: 2) and (max-width: 1200px),
-  (min-resolution: 192dpi) and (max-width: 1200px),
-  (min-resolution: 2dppx) and (max-width: 1200px) {
+@media (min-device-pixel-ratio: 2) and (max-width: 1200px), (min-resolution: 192dpi) and (max-width: 1200px), (min-resolution: 2dppx) and (max-width: 1200px) {
   .made {
     padding-top: 130px;
     padding-bottom: 250px;
     background: rgb(255, 245, 246);
   }
 }
-@media (min-device-pixel-ratio: 2) and (max-width: 768px),
-  (min-resolution: 192dpi) and (max-width: 768px),
-  (min-resolution: 2dppx) and (max-width: 768px) {
+@media (min-device-pixel-ratio: 2) and (max-width: 768px), (min-resolution: 192dpi) and (max-width: 768px), (min-resolution: 2dppx) and (max-width: 768px) {
   .made {
     padding-top: 125px;
     padding-bottom: 145px;
-    background:
-      url('../img/milkground.png') no-repeat center/contain,
-      rgb(255, 245, 246);
+    background: url("../img/milkground.webp") no-repeat center/contain, rgb(255, 245, 246);
   }
 }
 .made .made-content {
@@ -854,7 +844,7 @@ header .header-content .svg-button__button {
 .made .made-content .pictures {
   position: absolute;
   top: 115.8%;
-  z-index: 2;
+  z-index: 3;
   width: 1280px;
 }
 @media (max-width: 1200px) {
@@ -884,7 +874,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content__podtitle {
   color: rgb(255, 165, 186);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
@@ -893,7 +883,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 26px;
     font-weight: 400;
     line-height: 30px;
@@ -902,7 +892,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content__podtitle {
     color: rgb(255, 165, 186);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
@@ -910,7 +900,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content__title {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
@@ -919,7 +909,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 48px;
     font-weight: 400;
     line-height: 55px;
@@ -928,7 +918,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 34px;
     font-weight: 400;
     text-align: center;
@@ -985,7 +975,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content .how-made .how-made-content__title {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 176%;
@@ -994,7 +984,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content .how-made .how-made-content__title {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
     width: 340px;
@@ -1003,7 +993,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content .how-made .how-made-content__title {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     width: 220px;
@@ -1011,7 +1001,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content .how-made .how-made-content__item {
   color: rgb(144, 126, 130);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 500;
   line-height: 194%;
@@ -1020,7 +1010,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content .how-made .how-made-content__item {
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
     width: 340px;
@@ -1029,7 +1019,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content .how-made .how-made-content__item {
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     width: 220px;
@@ -1040,7 +1030,7 @@ header .header-content .svg-button__button {
   align-items: center;
   gap: 15px;
   color: rgb(212, 20, 67);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -1052,7 +1042,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content .how-made .how-made-content__button {
     color: rgb(212, 20, 67);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 16px;
     font-weight: 700;
     padding: 15px 40px;
@@ -1101,7 +1091,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content .milks-cards .milk-card__title {
   color: rgb(212, 20, 67);
-  font-family: 'Titan One';
+  font-family: "Titan One";
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
@@ -1110,7 +1100,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content .milks-cards .milk-card__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 48px;
     font-weight: 400;
     line-height: 55px;
@@ -1120,7 +1110,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content .milks-cards .milk-card__title {
     color: rgb(212, 20, 67);
-    font-family: 'Titan One';
+    font-family: "Titan One";
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1131,7 +1121,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content .milks-cards .milk-card__item {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 176%;
@@ -1140,7 +1130,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .made .made-content .milks-cards .milk-card__item {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
     width: 180px;
@@ -1149,7 +1139,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .made .made-content .milks-cards .milk-card__item {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 700;
     width: 230px;
@@ -1196,7 +1186,7 @@ header .header-content .svg-button__button {
 }
 .rewiews .rewiews-content__title {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 20px;
   font-weight: 500;
   line-height: 186%;
@@ -1205,7 +1195,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .rewiews .rewiews-content__title {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
   }
@@ -1282,7 +1272,7 @@ header .header-content .svg-button__button {
 }
 .rewiews .rewiews-content .rewiever-box__item {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
@@ -1293,7 +1283,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .rewiews .rewiews-content .rewiever-box__item {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
     width: 460px;
@@ -1302,7 +1292,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .rewiews .rewiews-content .rewiever-box__item {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     line-height: 255%;
@@ -1353,7 +1343,7 @@ header .header-content .svg-button__button {
 }
 .locations .locations-content .examples .example__type {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
@@ -1366,7 +1356,7 @@ header .header-content .svg-button__button {
   .locations .locations-content .examples .example__type {
     padding: 0px 20px;
     color: rgb(255, 255, 255);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
   }
@@ -1376,7 +1366,7 @@ header .header-content .svg-button__button {
 }
 .locations .locations-content .examples .example__title {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
@@ -1385,7 +1375,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .locations .locations-content .examples .example__title {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
   }
@@ -1394,14 +1384,14 @@ header .header-content .svg-button__button {
   .locations .locations-content .examples .example__title {
     margin-top: 25px;
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
   }
 }
 .locations .locations-content .examples .example__item {
   color: rgb(144, 126, 130);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 183%;
@@ -1413,7 +1403,7 @@ header .header-content .svg-button__button {
   .locations .locations-content .examples .example__item {
     width: 145px;
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
   }
@@ -1421,7 +1411,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .locations .locations-content .examples .example__item {
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     width: 180px;
@@ -1430,7 +1420,7 @@ header .header-content .svg-button__button {
 }
 .locations .locations-content .examples .example__time {
   color: rgb(0, 0, 0);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
@@ -1439,7 +1429,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .locations .locations-content .examples .example__time {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
     padding-top: 16px;
@@ -1448,7 +1438,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .locations .locations-content .examples .example__time {
     color: rgb(0, 0, 0);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     padding-top: 25px;
@@ -1456,7 +1446,7 @@ header .header-content .svg-button__button {
 }
 .locations .locations-content .examples .example__clock {
   color: rgb(255, 165, 186);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
@@ -1464,7 +1454,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .locations .locations-content .examples .example__clock {
     color: rgb(255, 165, 186);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
   }
@@ -1472,7 +1462,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .locations .locations-content .examples .example__clock {
     color: rgb(255, 165, 186);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
   }
@@ -1487,7 +1477,7 @@ header .header-content .svg-button__button {
 }
 .locations .locations-content .examples .example__footer {
   color: rgb(144, 126, 130);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 183%;
@@ -1498,7 +1488,7 @@ header .header-content .svg-button__button {
 @media (max-width: 1200px) {
   .locations .locations-content .examples .example__footer {
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 500;
     width: 157px;
@@ -1507,7 +1497,7 @@ header .header-content .svg-button__button {
 @media (max-width: 768px) {
   .locations .locations-content .examples .example__footer {
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 12px;
     font-weight: 500;
     width: 180px;
@@ -1540,7 +1530,7 @@ header .header-content .svg-button__button {
   border-radius: 22px;
   background-color: rgb(212, 19, 66);
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -1554,7 +1544,7 @@ header .header-content .svg-button__button {
   border-radius: 22px;
   background-color: white;
   color: red;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -1638,7 +1628,7 @@ body {
     display: flex;
     justify-content: center;
     color: rgb(144, 126, 130);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 14px;
     font-weight: 700;
     width: 100%;
@@ -1706,7 +1696,7 @@ body {
     justify-self: center;
     align-items: center;
     color: rgb(212, 20, 67);
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -1731,7 +1721,7 @@ body {
 }
 .burger-nav__item {
   color: rgb(255, 255, 255);
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -1749,4 +1739,81 @@ body {
 }
 .burger-nav__item:hover {
   color: rgb(212, 20, 67);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/dm-sans-v17-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/titan-one-v17-latin-regular.woff2") format("woff2");
+}
+.animate__animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+[data-animate] {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  animation-name: fadeInUp;
 }
