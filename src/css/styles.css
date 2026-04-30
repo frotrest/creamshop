@@ -1567,7 +1567,6 @@ header .header-content .svg-button__button {
 }
 
 .locations-rev {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1596,7 +1595,7 @@ body {
 .container {
   margin: 0px auto;
   padding: 0px 15px;
-  width: 1280px;
+  width: 1200px;
 }
 
 @media (max-width: 1200px) {
